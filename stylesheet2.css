@@ -1,0 +1,158 @@
+header {
+    height: 130px;
+    border-bottom: 1px solid black;
+}
+h1 {
+    line-height: 12px;
+    font-weight: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.judul {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.sub {
+    display: flex;
+    background-color: rgba(116, 94, 94, 0)
+}
+.sub a {
+    flex: auto;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+    margin: 30px 0 20px 0;
+    transition: all 0.5s;
+    color: black;
+}
+.sub a:hover {
+    background-color:rgba(99, 79, 79, 0.3);
+
+}
+.top-wrapper {
+    padding: 100px 0;
+    background-color:rgba(99, 79, 79, 0.1) ;
+    text-align: center;
+}
+.btn {
+    padding: 5px 15px;
+    color: white;
+    background-color: rgb(123, 74, 202, 0.5);
+    display: inline-block;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+.btn:hover {
+    background-color:rgb(123, 74, 202, 1) ;
+}
+.heading {
+    padding: 20px 0 15px 50px;
+}
+.lessons {
+    height: 500px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.lesson {
+    width: 25%;
+    height: 170px;
+    margin: 20px;
+    position: relative;
+    background-color:rgb(123, 74, 202, 1) ;
+    color: white;
+    border-radius: 10px;
+}
+.clear {
+    clear: left;
+}
+.item {
+    margin-left: 20px;
+}
+.lesson a {
+    display: inline;
+    text-align: center;
+    position: absolute;
+    width: 99%;
+    transition: all 0.5s;
+    color: white;
+}
+.lesson a:hover {
+    color: black;
+}
+footer {
+    height: 200px;
+}
+.footer-right {
+    float: right;
+    margin-right: 90px;
+}
+.footer-left {
+    float: left;
+    margin-left: 90px;
+}
+.media {
+    float: right;
+}
+.courses{
+    float: left;
+}
+li {
+    text-decoration: none;
+}
+.sub-jud {
+    margin: 5px 10px 15px 0;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+.isi {
+    margin: 5px 0;
+    color: #8c848f;
+}
+* {
+    box-sizing: border-box;
+}
+@media (max-width: 1000px) {
+    .top-wrapper {
+        height: 400px;
+    }
+    .lesson {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 50px;
+        margin: 10px 0;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .lessons {
+        flex-flow: column;
+        margin-bottom: 100px;
+        height: 801px;
+    }
+    .lesson a {
+        position: relative;
+    }
+    .heading {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .heading h3 {
+        text-align: center;
+        width: 100%;
+        padding-right: 40px;
+    }
+    .footer-left {
+        margin-left: 133px;
+    }
+    .footer-right {
+        margin-right: 63px;
+    }
+}
